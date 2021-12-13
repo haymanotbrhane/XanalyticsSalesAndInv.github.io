@@ -1,0 +1,24 @@
+/* Add here all your CSS customizations */
+
+.card-title > a:before {
+    /*float: right !important;*/
+    font-family: FontAwesome;
+    content: '\f068';
+    padding-right: 5px;
+}
+.card-title > a.collapsed:before {
+    /*float: right !important;*/
+    content: '\f067';
+}
+
+.card-title > a:hover,
+.card-title > a:active,
+.card-title > a:focus  {
+    text-decoration:none;
+}
+
+@media only screen and (max-height: 766px) {
+    .logo-container{
+        height: none;
+    }
+}
